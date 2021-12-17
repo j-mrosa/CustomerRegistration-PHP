@@ -1,0 +1,62 @@
+html{
+    background-image: url("background.jpg");
+    font-family: sans-serif;
+}
+
+body{
+    padding: 15px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+button{
+    font-size: 1em;
+    padding: 10px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+table, tr, td , th{
+    border-collapse: collapse;
+    border: solid 3px black;
+/*    background-color: white;*/
+    padding: 15px;
+}
+
+table{
+    background-color: white;
+}
+
+th{
+    background-color: lightblue;
+}
+
+td:last-child{
+    text-align: center;
+}
+
+.specialForm{
+    border: solid 3px black;
+    background-color: white;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.hidden{
+    display: none;
+}
+
+button:disabled{
+    pointer-events: none;
+}
+
+.highlight{
+    background-color: lightyellow;
+}
+

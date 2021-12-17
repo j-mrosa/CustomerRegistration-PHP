@@ -1,0 +1,8 @@
+#URL mapping for REST API Demo
+#Note: "NC" means case insensitive
+RewriteEngine on
+
+RewriteRule ^customerService/customers$ api/customerService.php [NC]
+RewriteRule ^customerService/customers/([0-9]+)$ api/customerService.php?customerid=$1 [NC]
+RewriteRule ^storeService/stores$ api/storeService.php [NC]
+RewriteRule ^storeService/stores/(\w{3})$ api/storeService.php?storeid=$1 [NC]
