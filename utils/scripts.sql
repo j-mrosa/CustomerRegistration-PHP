@@ -1,6 +1,6 @@
-drop schema if exists PhpA6;
-create schema PhpA6;
-use PhpA6;
+drop schema if exists customersRegDB;
+create schema customersRegDB;
+use customersRegDB;
 
 drop table if exists Customers;
 drop table if exists Stores;
