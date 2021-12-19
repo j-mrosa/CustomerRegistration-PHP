@@ -1,5 +1,5 @@
 <?php
-$projectRoot = $_SERVER['DOCUMENT_ROOT'] . '/jrosa/A6-JulianaRosa';
+$projectRoot = $_SERVER['DOCUMENT_ROOT'] . '/jrosa/CustomerRegistrationPlatform';
 require_once ($projectRoot . '/db/CustomerAccessor.php');
 require_once ($projectRoot . '/entity/Customer.php');
 require_once ($projectRoot . '/utils/ChromePhp.php');
