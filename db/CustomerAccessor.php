@@ -1,9 +1,9 @@
 <?php
 
-$projectRoot = $_SERVER['DOCUMENT_ROOT'] . '/jrosa/CustomerRegistrationPlatform';
+$projectRoot = $_SERVER['DOCUMENT_ROOT'] . '/CustomerRegistrationPlatform';
 require_once 'ConnectionManager.php';
-require_once '/entity/Customer.php';
-require (dirname(__FILE__). "/utils/ChromePhp.php");
+require_once ($projectRoot . '/entity/Customer.php');
+require_once ($projectRoot . "/utils/ChromePhp.php");
 
 class CustomerAccessor {
 

@@ -1,5 +1,5 @@
 <?php
-$projectRoot = filter_input(INPUT_SERVER, "DOCUMENT_ROOT") . '/jrosa/CustomerRegistrationPlatform';
+$projectRoot = filter_input(INPUT_SERVER, "DOCUMENT_ROOT") . '/CustomerRegistrationPlatform';
 require_once($projectRoot . '/db/StoreAccessor.php');
 require_once ($projectRoot . '/utils/ChromePhp.php');
 

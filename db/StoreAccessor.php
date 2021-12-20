@@ -1,6 +1,6 @@
 <?php
 
-$projectRoot = $_SERVER['DOCUMENT_ROOT'] . '/jrosa/CustomerRegistrationPlatform';
+$projectRoot = $_SERVER['DOCUMENT_ROOT'] . '//CustomerRegistrationPlatform';
 require_once 'ConnectionManager.php';
 require_once ($projectRoot . '/entity/Store.php');
 
