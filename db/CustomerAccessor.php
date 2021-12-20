@@ -2,7 +2,7 @@
 
 $projectRoot = $_SERVER['DOCUMENT_ROOT'] . '/jrosa/CustomerRegistrationPlatform';
 require_once 'ConnectionManager.php';
-require_once (realpath(dirname(__FILE__)). '/entity/Customer.php');
+require_once '/entity/Customer.php';
 require (dirname(__FILE__). "/utils/ChromePhp.php");
 
 class CustomerAccessor {
