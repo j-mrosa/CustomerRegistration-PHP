@@ -278,6 +278,7 @@ function getStores() {
     xmlhttp.onreadystatechange = function () {
         if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
             let resp = xmlhttp.responseText;//this is a json string
+            console.log(resp);
             if (resp.search("ERROR") >= 0) {
                 alert("oh no...");
             } else {
